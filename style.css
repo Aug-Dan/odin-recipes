@@ -3,8 +3,8 @@
 } */
 
 body {
-  background: rgb(112, 100, 52); 
-  text-align: center;
+  background: rgb(112, 100, 52);
+  color: rgb(34, 28, 7);
 }
 
 .card {
@@ -12,12 +12,15 @@ body {
   width: 500px;
   height: 520px;
   margin: 0px auto;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
 }
 
-h1 {
+.card h1 {
   border-bottom: 2px solid rgb(107, 91, 27);
   padding: 16px;
   margin: auto 30px;
+  color: rgb(34, 28, 7);
 }
 
 .btn {
@@ -28,4 +31,60 @@ h1 {
   padding: 5px;
   border-right: 2px solid rgb(107, 91, 27);
   border-bottom: 2px solid rgb(107, 91, 27);
+}
+
+.recipe-card {
+  background-color: white;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+.recipe-title {
+  text-align: center;
+  border-bottom: 2px solid rgb(107, 91, 27);
+  padding: 16px;
+  margin: auto 30px;
+}
+
+.recipe-pic {
+  display: block;
+  margin: 30px auto 0px;
+}
+
+.recipe {
+  padding: 20px;
+  text-align: left;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 10px;
+  border-top: 2px solid rgb(107, 91, 27);
+}
+
+.back-btn {
+  display: block;
+  font-size: 15px;
+  box-sizing: border-box;
+  width: 96px;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  cursor: pointer;
+  border-right: 2px solid rgb(107, 91, 27);
+  border-bottom: 2px solid rgb(107, 91, 27);
+}
+
+.btn a, .back-btn a {
+  text-decoration: none;
+  display: block; 
+  color: rgb(34, 28, 7);
+  font-weight: 700;
 }
